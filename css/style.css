@@ -1,29 +1,44 @@
-*{
-  background-color: lightgreen;
+body{
+  background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+  background-position: center;
+  font-family: 'New Tegomin', serif;
 }
 .red{
   color: red;
 }
 .container{
-  width: 500px;
-  height: 600px;
-  background-color: pink;
+  width: 350px;
+  height: 500px;
+  background-color: #EBC489;
   margin: auto;
+  margin-top: 100px;
 }
 h1{
   font-size: 40px;
-  color: blue;
+  color: #002859;
+  margin-left: 20px;
 }
 li{
   margin-bottom: 10px;
+  color: #002859;
+  font-weight: bold;
 }
 i, button{
   margin-left: 10px;
   cursor: pointer;
 }
+button{
+  background-color: #042b54;
+  color: #EBC489;
+  padding: 3px;
+  border-radius: 5px;
+}
 input{
   margin-left: 23px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
 }
 i:hover{
-  color: red;
+  color: #fff;
 }
