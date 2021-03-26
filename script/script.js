@@ -2,8 +2,7 @@ var app = new Vue(
   {
     el:"#root",
     data:{
-      message: "",
-      miaClasse : "red",
+      lista: ["Fare le valigie", "Prelevare soldi", "Andare in libreria"],
     },
     methods:{
 
