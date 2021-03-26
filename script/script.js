@@ -3,7 +3,7 @@ var app = new Vue(
     el:"#root",
     data:{
       newElement:"",
-      list: ["FARE LE VALIGIE", "PRELEVARE IN BANCA", "ADARE IN LIBRERIA"],
+      list: ["FARE LA VALIGIA", "PRELEVARE IN BANCA", "ADARE IN LIBRERIA"],
     },
     methods:{
       deleteElement: function(elementIndex){
