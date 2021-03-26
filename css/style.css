@@ -4,3 +4,20 @@
 .red{
   color: red;
 }
+.container{
+  width: 500px;
+  height: 600px;
+  background-color: pink;
+  margin: auto;
+}
+h1{
+  font-size: 40px;
+  color: blue;
+}
+i, button{
+  margin-left: 10px;
+  cursor: pointer;
+}
+i:hover{
+  color: red;
+}
