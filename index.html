@@ -14,11 +14,12 @@
 
     <div class="container">
     <h1><em>To-do-list</em></h1>
-    <ol>
-      <li v-for="(element,index) in lista">{{element}}<i class="fas fa-trash-alt"></i></li>
+    <input v-model="newElement" type="text" placeholder="inserisci nuovo elemento" @keydown.13 ="addElement">
+    <button @click="addElement" type="button" >Aggiungi</button>
+    <ol v-if="list.length > 0">
+      <li v-for="(element,index) in list">{{element}}<i @click="deleteElement(index)" class="fas fa-trash-alt"></i></li>
     </ol>
-    <input type="text" name="" value="">
-    <button type="button" name="button">Aggingi</button>
+
     </div>
 
   </div>

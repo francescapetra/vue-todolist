@@ -21,6 +21,9 @@ i, button{
   margin-left: 10px;
   cursor: pointer;
 }
+input{
+  margin-left: 23px;
+}
 i:hover{
   color: red;
 }
