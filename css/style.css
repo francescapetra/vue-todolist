@@ -43,3 +43,7 @@ input{
 i:hover{
   color: #fff;
 }
+textarea:focus, input:focus,
+button:focus{
+    outline: none;
+}
